@@ -11,6 +11,31 @@
         <servlet-name>parametertest1servlet</servlet-name>
         <url-pattern>/paramtest1</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>checkboxtest</servlet-name>
+        <servlet-class>kz.kaznitu.servlets.CheckBoxTestServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>checkboxtest</servlet-name>
+        <url-pattern>/checkbox</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>allparameters</servlet-name>
+        <servlet-class>kz.kaznitu.servlets.ParameterTest2Servlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>allparameters</servlet-name>
+        <url-pattern>/allparam</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>sessionservlet</servlet-name>
+        <servlet-class>kz.kaznitu.servlets.SessionTestServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>sessionservlet</servlet-name>
+        <url-pattern>/sessiontest</url-pattern>
+    </servlet-mapping>
 </web-app>
 
 
